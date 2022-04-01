@@ -7,9 +7,9 @@ ROMFS_DIR = $(ROOTDIR)/romfs
 include $(ROOTDIR)/user/shared/boards.mk
 
 PROJECT_HOME_URL="https:\/\/bitbucket.org\/padavan\/rt-n56u\/"
-PROJECT_HOME_URL_MOD="https:\/\/file.ssss.fun\/?\/软件中心\/路由固件\/Padavan\/"
+PROJECT_HOME_URL_MOD="https:\/\/file.ssss.fun\/?\/路由固件\/Padavan\/"
 
-LABEL_COPYRIGHT_TEXT='Copyright © 1998 - 2021 <a href="https:\/\/i.ssss.fun" target="blank">中國遠徵<\/a> All Rights Reserved'
+LABEL_COPYRIGHT_TEXT='Copyright © 1998 - <script>document.write(new Date().getFullYear());</script> <a href="https:\/\/i.ssss.fun" target="blank">中國遠徵<\/a> All Rights Reserved'
 
 BOARD_PATTERN=s/ZVMODELVZ/$(CONFIG_FIRMWARE_PRODUCT_ID)/g
 COPYR_PATTERN=s/ZVCOPYRVZ/$(LABEL_COPYRIGHT_TEXT)/g
